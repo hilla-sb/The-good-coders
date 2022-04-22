@@ -42,12 +42,33 @@ body {
     padding: 10em;
   }
   
-  
+  .boxh2 {
+    background: #e9b5b3;
+    max-width: 18rem;
+    height: 6rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    word-break:break-all;
+    color:#000;
+
+  }
   article > h2 {
     font-weight: 900;
     font-size: 2.7rem;
     max-width: 20ch;
-    background: #e9b5b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    padding: 1.5rem;
+    backface-visibility: hidden;
+    text-decoration: none;
+    overflow: hidden;
+    
   }
   
   p {

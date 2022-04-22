@@ -33,6 +33,17 @@ body {
  
 /* --- seccion1  ---- */
 
+.mision-all {
+  display:flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.mision-elements {
+  display:flex;
+  flex-direction: row;
+  align-content:space-between;
+}
 .rose-rectangle {
 
 }

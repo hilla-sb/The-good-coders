@@ -64,6 +64,7 @@ body {
     align-items: center;
     word-break:break-all;
     color:#000;
+    
 
   }
   article > h2 {
@@ -73,9 +74,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     position: relative;
     padding: 1.5rem;
     backface-visibility: hidden;
@@ -83,6 +81,7 @@ body {
     overflow: hidden;
     
   }
+  
   
   p {
     max-width: 60ch;

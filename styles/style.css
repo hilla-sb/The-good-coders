@@ -33,6 +33,34 @@ body {
  
 /* --- seccion1  ---- */
 
+/*no funciona la siguiente línea*/
+article {
+  color: black;
+}
+
+.mision-all {
+  display:flex;
+  flex-direction: column;
+  /*no funciona la siguiente línea*/
+  align-content: space-around;
+}
+
+.mision-elements {
+  display:flex;
+  flex-direction: row;
+  /*no funciona la siguiente línea*/
+  align-content:space-between;
+}
+
+.hands {
+  height: 30rem;
+}
+.rose-rectangle {
+
+}
+.no-fill-rectangle {
+  border: black solid 1px;
+}
 
 /* --- seccion2 ---- */
 

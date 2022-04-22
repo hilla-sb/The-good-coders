@@ -33,6 +33,12 @@ body {
  
 /* --- seccion1  ---- */
 
+.rose-rectangle {
+
+}
+.no-fill-rectangle {
+  border: black solid 1px;
+}
 
 /* --- seccion2 ---- */
 

@@ -34,8 +34,8 @@ body {
 /* --- seccion1  ---- */
 
 /*no funciona la siguiente línea*/
-article {
-  color: black;
+.section-one {
+  background-color: #E9B5B3;
 }
 
 .mision-all {
@@ -55,9 +55,7 @@ article {
 .hands {
   height: 30rem;
 }
-.rose-rectangle {
 
-}
 .no-fill-rectangle {
   border: black solid 1px;
 }

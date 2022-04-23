@@ -1,4 +1,5 @@
 /* --- Reset  ---- */
+
 ol, ul {
 	list-style: none;
 }
@@ -11,10 +12,10 @@ ol, ul {
        url('bellaboo-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 /* --- Layout  ---- */
+
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Andika New Basic', Sans-serif;
@@ -27,15 +28,14 @@ h1,h2 {
 
 
 
-
 /* --- Menú  ---- */
+
 .logo img{
     display:flex;
     height:3rem;
     position:relative;
     margin-top:6rem;
     padding-left: 1rem;
-
 }
 .nav{
     left:80px;
@@ -46,6 +46,8 @@ h1,h2 {
     box-sizing: content-box;
 }
  
+
+
 /* --- seccion1  ---- */
 
 .mision-all {
@@ -64,7 +66,6 @@ h1,h2 {
     align-items: center;
     gap: 2rem;
   }
-
   .mision-rectangle {
     background-color: #e9b5b3;
     width: 12rem;
@@ -74,7 +75,6 @@ h1,h2 {
     display: flex;
     justify-content: center;
   }
-
   .mision-rectangle:after {
     content: "";
       position: absolute;
@@ -84,7 +84,6 @@ h1,h2 {
       bottom: -30px;
       border: 1px solid black;
     }
-
   .hands {
     width: 15rem;
     margin: 1.5rem;
@@ -92,7 +91,6 @@ h1,h2 {
   .mision-text {
     text-align: center;
    }
-
 
 
 
@@ -104,7 +102,6 @@ h1,h2 {
   flex-direction: row;
   justify-content: space-around;
 }
-
 .mision-rectangle {
   background-color: #e9b5b3;
   width: 18rem;
@@ -113,13 +110,11 @@ h1,h2 {
   display: flex;
   justify-content: center;
 }
-
 .mision-text {
   
   display: flex;
   justify-content: center;
 }
-
 .mision-rectangle:after {
 content: "";
   position: absolute;
@@ -129,17 +124,132 @@ content: "";
   bottom: -30px;
   border: 1px solid black;
 }
-
 .hands {
   width: 30rem;
 }
-
   }
+
+
 /* --- seccion2 ---- */
 
+.historia-all{
+  background-color: rgb(255, 255, 255);
+  border-radius: 4rem;
+  display:flex;
+  padding: 3rem;
+  flex-direction: column;
+  align-content: space-between;
+}
+.historia-elements{
+  padding: 1rem 2rem;
+  display:flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+.historia-box{
+  background-color: #e9b5b3;
+  width: 12rem;
+  height: 6rem;
+  margin: 1rem;
+  position:relative;
+  display: flex;
+  justify-content: center;
+}
+.historia-box:after{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: -20px;
+  bottom: -30px;
+  border: 1px solid black;
+}  
 
 
-/* --- seccion3 ---- */
+
+  /* --- seccion3 ---- */
+
+.idea-all{
+  background-color: #e8ebf1;
+  border-radius: 4rem;
+  display:flex;
+  padding: 3rem;
+  flex-direction: column;
+  align-content: space-between;
+}
+.idea-elements{
+  padding: 1rem 2rem;
+  display:flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+.idea-box{
+  background-color: #e9b5b3;
+  width: 12rem;
+  height: 6rem;
+  margin: 1rem;
+  position:relative;
+  display: flex;
+  justify-content: center;
+}
+.idea-box:after{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: -20px;
+  bottom: -30px;
+  border: 1px solid black;
+}    
+.idea-text{
+  display: flex;
+  justify-content: center;
+}
+
+/* --- parte de las images y texto debajo ---- */
+
+.idea-circles{
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+}
+.equipos-diversos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5%;
+  row-gap: 4%;
+
+  width: 30%;
+  border-radius: 50%;
+  margin-bottom: 7%;
+}
+.accesibilidad{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+
+  width: 30%;
+  border-radius: 50%;
+  margin-bottom: 7%;
+}
+.medio-ambiente{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+
+  width: 30%;
+  border-radius: 70%;
+  margin-bottom: 7%;
+}
+
 
 
 

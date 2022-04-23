@@ -35,23 +35,47 @@ body {
 
 
 .mision-all {
-  background-color: #E9B5B3;
+  background-color: #e8ebf1;
+  border-radius: 4rem;
+  display:flex;
+  padding: 5rem;
+  flex-direction: column;
 }
 
 
 .mision-elements {
   display:flex;
   flex-direction: row;
-  /*no funciona la siguiente línea*/
-  align-content:space-between;
+  justify-content: space-around;
+}
+
+.mision-rectangle {
+  background-color: #e9b5b3;
+  width: 18rem;
+  height: 6rem;
+  position:relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mision-text {
+  
+  display: flex;
+  justify-content: center;
+}
+
+.mision-rectangle:after {
+content: "";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid black;
 }
 
 .hands {
-  height: 30rem;
-}
-
-.no-fill-rectangle {
-  border: black solid 1px;
+  height: 20rem;
 }
 
 /* --- seccion2 ---- */

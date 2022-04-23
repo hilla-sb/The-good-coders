@@ -33,17 +33,11 @@ body {
  
 /* --- seccion1  ---- */
 
-/*no funciona la siguiente línea*/
-.section-one {
+
+.mision-all {
   background-color: #E9B5B3;
 }
 
-.mision-all {
-  display:flex;
-  flex-direction: column;
-  /*no funciona la siguiente línea*/
-  align-content: space-around;
-}
 
 .mision-elements {
   display:flex;

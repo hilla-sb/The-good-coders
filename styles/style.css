@@ -267,32 +267,34 @@ content: "";
 border-radius: 4rem;
 margin: 0 4rem;
 height: 56rem;
-    background-color: #CBCBCB44 ;
+    background-color: #e8ebf1 ;
   
   }
   
  
   .boxh2 {
-    background: #e9b5b3;
-    max-width:26rem;
-    height: 10rem;
-    display:flex;
+    background-color: #e9b5b3;
+    width: 12rem;
+    height: 6rem;
+    margin: 1rem;
+    position:relative;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    margin: auto;
-    word-break:break-all;
     color:#000;
+    margin:auto;
   
     }
+
+  .boxh2::after {
+      content: "";
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        right: -20px;
+        bottom: -30px;
+        border: 1px solid black;
+  }
     
-.centrarbox::before {
-  content:"";
-  display:block;
-  width: %;
-  height: px;
-  background-color: aqua;
-  left: 4rem;
-}
     
 
   }

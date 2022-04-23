@@ -263,11 +263,12 @@ content: "";
 /* --- Miembros ---- */
 /* Globals */
 .container {
-    padding: 10em;
-border-radius: 4rem;
-margin: 0 4rem;
-height: 56rem;
-    background-color: #e8ebf1 ;
+  background-color: #e8ebf1;
+  border-radius: 4rem;
+  display:flex;
+  padding: 3rem;
+  flex-direction: column;
+  align-content: space-between;
   
   }
   
@@ -302,8 +303,6 @@ height: 56rem;
     font-size: 2.6rem;
   }
   article > h2 {
-    font-weight: 900;
-    font-size: 2.7rem;
     max-width: 20ch;
     display: flex;
     justify-content: center;
@@ -391,6 +390,7 @@ height: 56rem;
       hsl(0 0% 0% / 0) 100%
     );
     transition: 300ms opacity linear;
+    z-index:1;
   }
   
   .profile::after {
@@ -404,7 +404,7 @@ height: 56rem;
   }
   
   .profile > * {
-    z-index: 1;
+    z-index: 2;
   }
   
   .profile img {
@@ -414,7 +414,7 @@ height: 56rem;
     top: 0;
     left: 0;
     margin: 0;
-    z-index: -1;
+    z-index: 0;
     object-fit: cover;
     filter: grayscale(1);
     transition: filter 200ms ease, transform 250ms linear;

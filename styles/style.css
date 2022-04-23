@@ -18,9 +18,11 @@ ol, ul {
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Andika New Basic', Sans-serif;
+    font-size: 1.5rem;
 }
 h1,h2 {
   font-family: "bellabooregular",Sans-serif;
+  font-size: 2.5rem;
 }
 
 
@@ -89,6 +91,9 @@ content: "";
 
 .hands {
   height: 20rem;
+}
+.mision-text {
+ text-align: center;
 }
 
 /* --- seccion2 ---- */

@@ -3,12 +3,25 @@ ol, ul {
 	list-style: none;
 }
 
+/*title-font*/
+
+@font-face {
+  font-family: 'bellabooregular';
+  src: url('bellaboo-webfont.woff2') format('woff2'),
+       url('bellaboo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 /* --- Layout  ---- */
 body {
     background-color: rgb(255, 255, 255);
+    font-family: 'Andika New Basic', Sans-serif;
 }
-
+h1,h2 {
+  font-family: "bellabooregular",Sans-serif;
+}
 
 
 
@@ -33,33 +46,49 @@ body {
  
 /* --- seccion1  ---- */
 
-/*no funciona la siguiente línea*/
-article {
-  color: black;
-}
 
 .mision-all {
+  background-color: #e8ebf1;
+  border-radius: 4rem;
   display:flex;
+  padding: 5rem;
   flex-direction: column;
-  /*no funciona la siguiente línea*/
-  align-content: space-around;
 }
+
 
 .mision-elements {
   display:flex;
   flex-direction: row;
-  /*no funciona la siguiente línea*/
-  align-content:space-between;
+  justify-content: space-around;
+}
+
+.mision-rectangle {
+  background-color: #e9b5b3;
+  width: 18rem;
+  height: 6rem;
+  position:relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mision-text {
+  
+  display: flex;
+  justify-content: center;
+}
+
+.mision-rectangle:after {
+content: "";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid black;
 }
 
 .hands {
-  height: 30rem;
-}
-.rose-rectangle {
-
-}
-.no-fill-rectangle {
-  border: black solid 1px;
+  height: 20rem;
 }
 
 /* --- seccion2 ---- */

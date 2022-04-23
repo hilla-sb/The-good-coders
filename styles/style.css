@@ -3,12 +3,25 @@ ol, ul {
 	list-style: none;
 }
 
+/*title-font*/
+
+@font-face {
+  font-family: 'bellabooregular';
+  src: url('bellaboo-webfont.woff2') format('woff2'),
+       url('bellaboo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 /* --- Layout  ---- */
 body {
     background-color: rgb(255, 255, 255);
+    font-family: 'Andika New Basic', Sans-serif;
 }
-
+h1,h2 {
+  font-family: "bellabooregular",Sans-serif;
+}
 
 
 

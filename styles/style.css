@@ -33,21 +33,41 @@ h1,h2 {
 
 
 /* --- Menú  ---- */
-
+.header{
+    margin-top: -7rem;
+}
 .logo img{
-    display:flex;
-    height:3rem;
+   width: 15rem;
+    position: relative;
+    top: 8rem;
+}
+.logo {
+    height:17rem;
     position:relative;
-    margin-top:6rem;
-    padding-left: 1rem;
+    margin-top:4rem;
+    object-fit:contain;
 }
 .nav{
-    left:80px;
+    left:72px;
     display:flex;
     position:relative;
     font-size:1x;
     justify-content:space-around;
     box-sizing: content-box;
+    
+    object-fit:contain;
+    font-size: unset;
+    margin: revert;
+}
+.nav ul,li{
+  text-decoration: underline;;
+    text-decoration-color:#e9b5b3
+
+}
+
+.fondo img{
+  width: 100%;
+
 }
  
 

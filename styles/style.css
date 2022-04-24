@@ -4,6 +4,10 @@ ol, ul {
 	list-style: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 /*title-font*/
 
 @font-face {
@@ -256,12 +260,16 @@ content: "";
 
 /* --- Proyectos ---- */
 
+
+#proyectos {
+  padding: 4rem;
+}
 .proyectos-box {
   background-color: #e9b5b3;
   width: 12rem;
   height: 6rem;
   margin: 1rem;
-  position:relative;
+position: relative;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -275,22 +283,17 @@ content: "";
     bottom: -30px;
     border: 1px solid black;
   }
-  #proyectos {
-  height: 400px;
-  font-size:20px;
-  
-  background-size:cover;
-  background-repeat:repeat;
-  color:#000;
-}
+ .imagenes-box {
+   padding: 4rem;
+ }
 
 .imagenes-proyectos{
-  position:absolute;
-  margin:0;
-  padding:0;
-  background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-repeat:repeat;
 
+  background-image: url("../images/Fondo\ madera\ seccion\ proyectos.jpeg");
+  border-radius: 0.5rem;
+  background-repeat:repeat;
+  padding: 2.6rem;
+  text-align: center;
 
 }
 
@@ -306,7 +309,9 @@ content: "";
   -o-transition:all 1s ease;
   -moz-transition:all 1s ease;
   -webkit-transition:all 1s ease;
-  top:50px;
+  
+
+
 }
 
 
@@ -356,14 +361,14 @@ content: "";
   background-color: #e8ebf1;
   border-radius: 4rem;
   display:flex;
-  padding: 3rem;
+  padding: 4rem;
   flex-direction: column;
   align-content: space-between;
   
   }
   
  
-  .boxh2 {
+  .miembros-box {
     background-color: #e9b5b3;
     width: 12rem;
     height: 6rem;
@@ -376,7 +381,7 @@ content: "";
   
     }
 
-  .boxh2::after {
+  .miembros-box:after {
       content: "";
         position: absolute;
         top: 30px;

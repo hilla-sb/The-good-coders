@@ -151,7 +151,7 @@ content: "";
 .hands {
   width: 30rem;
 }
-  }
+  
 
 
 /* --- seccion2 ---- */
@@ -413,7 +413,7 @@ position: relative;
     
     
 
-  }
+  
   .boxh2>h2 {
     font-size: 2.6rem;
   }
@@ -587,10 +587,3 @@ position: relative;
     transform: scale(1.05) rotate(1deg);
   }
   
-
-
-
-
-
-
-

@@ -128,8 +128,13 @@ justify-content: center;
 }
 
 .respmenu .fa-bars, .respmenu .fa-times {
-  font-size: 48px;
+  font-size: 30px;
   pointer-events: none;
+}
+.fa-bars{
+ color:#000;
+  display:block;
+ 
 }
 
 .respmenu input[type="checkbox"] {
@@ -137,10 +142,11 @@ justify-content: center;
 }
 
 .respmenu {
-  color: white;
+  color: rgb(12, 12, 12);
   position: relative;
-  background: #e9b5b3;
-  min-height: 48px;
+;
+
+  min-height: 30px;
 }
 
 .respmenu nav {
@@ -362,10 +368,6 @@ content: "";
   width: 25%;
   border-radius: 70%;
   margin-bottom: 7%;
-}
-.idea-circles p{
-  display: flex;
-  
 }
   
   /*media querie partes de las images y texto debajo ---- */

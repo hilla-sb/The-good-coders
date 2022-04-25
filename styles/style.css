@@ -284,7 +284,17 @@ content: "";
   bottom: -30px;
   border: 1px solid black;
 }  
+.video {
+  display:flex;
+  justify-content: center;
+}
 
+/* media querie secton 2 */
+@media (min-width:700px) {
+  .video {
+width: ;
+  }
+}
 
 
   /* --- seccion3 ---- */

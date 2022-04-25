@@ -46,7 +46,7 @@ h1,h2, .nav a {
   
 .header{
     margin-top: -7rem;
-    padding-bottom: 6rem;
+    padding-bottom: 10rem;
 
 }
 .respmenu{
@@ -69,25 +69,39 @@ h1,h2, .nav a {
 
 
 
-.fondo img{
+} 
+
+.fondo {
+  background-image: url("../images/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 36rem;
+}
+
+.fondo {
   width: 100%;
-  text-align:center;
-  display:inline-block;
-  list-style:none;
-  position:relative;
+display: flex;
+align-items: center;
+justify-content: center;
   transition:all 1s ease;
   -o-transition:all 1s ease;
   -moz-transition:all 1s ease;
   -webkit-transition:all 1s ease;
+  opacity:0.5;
   }
 
-  .fondo img:hover{
+  .fondo:hover{
     top:0px;
-    opacity:0.5;
+    opacity:1;
   } 
 
-} 
+  .fondo>h1 {
+   padding-left: 14rem;
+   text-align: center;
+    
 
+  }
  
 /* --- Menúmobile  ---- */
 
@@ -506,9 +520,7 @@ position: relative;
     
 
   
-  .boxh2>h2 {
-    font-size: 2.6rem;
-  }
+  
   article > h2 {
     max-width: 20ch;
     display: flex;

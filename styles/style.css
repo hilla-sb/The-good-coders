@@ -31,11 +31,28 @@ h1,h2, .nav a {
 }
 
 /* --- Menú  ---- */
+.nav{  
 
+  left:72px;
+    display:none;
+    position:relative;
+    justify-content:space-around;
+    box-sizing: content-box;
+    object-fit:contain;
+    font-size: unset;
+    margin: revert;
+}
 @media(min-width:700px) {
+  
 .header{
     margin-top: -7rem;
 
+}
+.respmenu{
+  display: none;
+}
+.nav {
+  display: flex;
 }
 .logo img{
    width: 15rem;
@@ -48,16 +65,7 @@ h1,h2, .nav a {
     margin-top:4rem;
     object-fit:contain;
 }
-.nav{  
-  left:72px;
-    display:flex;
-    position:relative;
-    justify-content:space-around;
-    box-sizing: content-box;
-    object-fit:contain;
-    font-size: unset;
-    margin: revert;
-}
+
 
 
 .fondo img{

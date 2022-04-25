@@ -59,7 +59,7 @@ h1,h2 {
     font-size: unset;
     margin: revert;
 }
-.nav ul,li{
+.nav>li{
   text-decoration: underline;;
     text-decoration-color:#e9b5b3
 

@@ -95,7 +95,7 @@ h1,h2, .nav a, .respmenu {
   width: 100%;
 display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content: center;
   transition:all 1s ease;
   -o-transition:all 1s ease;
   -moz-transition:all 1s ease;
@@ -108,13 +108,29 @@ justify-content: space-around;
     opacity:1;
   } 
 
-  .fondo>h1 {
-   text-align: center;
+  @media (min-width: 722px) {
+    .fondo>h1 {
+      text-align: center;
    font-size: 2.6rem;
    padding-left: 26rem;
-    
-
+    }
   }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 721px) {
+    .fondo>h1 {
+      text-align: center;
+      font-size: 2rem;
+      padding-left: 16rem;
+    }
+    @media screen and (max-width: 468px) {
+      .fondo>h1 {
+        text-align: center;
+        font-size: 2rem;
+        padding-left: 8rem;
+      }
+  }
+ 
  
 /* --- Menúmobile  ---- */
 

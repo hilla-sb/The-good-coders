@@ -55,7 +55,6 @@ h1,h2 {
     font-size:1x;
     justify-content:space-around;
     box-sizing: content-box;
-    
     object-fit:contain;
     font-size: unset;
     margin: revert;

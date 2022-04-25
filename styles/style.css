@@ -25,16 +25,16 @@ body {
     font-family: 'Andika New Basic', Sans-serif;
     font-size: 1.5rem;
 }
-h1,h2 {
+h1,h2, .nav a {
   font-family: "bellabooregular",Sans-serif;
   font-size: 2.5rem;
 }
 
-
-
 /* --- Menú  ---- */
+@media(min-width:700px) {
 .header{
     margin-top: -7rem;
+
 }
 .logo img{
    width: 15rem;
@@ -47,30 +47,51 @@ h1,h2 {
     margin-top:4rem;
     object-fit:contain;
 }
-.nav{
-    left:72px;
+.nav{  
+  left:72px;
     display:flex;
     position:relative;
-    font-size:1x;
     justify-content:space-around;
     box-sizing: content-box;
-    
     object-fit:contain;
     font-size: unset;
     margin: revert;
 }
-.nav ul,li{
-  text-decoration: underline;;
-    text-decoration-color:#e9b5b3
 
-}
 
 .fondo img{
   width: 100%;
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  
+}
 
+.fondo img:hover{
+  top:0px;
+  opacity:0.5;
+}
+
+
+.fondo img:nth-child(4){
+    transform:rotate(20deg);
+}
+
+.fondo>h1 {
+  position:absolute;
+  top: 104%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    text-align: center;
 }
  
-
+}
 
 /* --- seccion1  ---- */
 
@@ -289,6 +310,10 @@ content: "";
 
 #proyectos {
   padding: 4rem;
+}
+
+.imagenes-proyectos>li>a>p {
+  font-size: 0.75;
 }
 .proyectos-box {
   background-color: #e9b5b3;
@@ -592,4 +617,3 @@ position: relative;
     filter: grayscale(0);
     transform: scale(1.05) rotate(1deg);
   }
-  

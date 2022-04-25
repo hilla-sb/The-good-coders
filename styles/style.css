@@ -317,6 +317,7 @@ content: "";
   line-height: 3rem;
   margin-bottom: 2rem;
   display: flex;
+  justify-content: space-around;
 }
 .equipos-diversos{
   display: grid;
@@ -353,9 +354,16 @@ content: "";
   
 }
   
-  
+  /*media querie partes de las images y texto debajo ---- */
+  @media (min-width:400px) {
 
-
+  .idea-circles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    
+  }
 
 
 /* --- Proyectos ---- */

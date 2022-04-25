@@ -288,11 +288,15 @@ content: "";
   display:flex;
   justify-content: center;
 }
+video {
+  width: 15rem;
+  margin: 10px;
+}
 
-/* media querie secton 2 */
+/* media querie section 2 */
 @media (min-width:700px) {
-  .video {
-width: ;
+video {
+width: 50rem;
   }
 }
 

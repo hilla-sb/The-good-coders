@@ -59,11 +59,7 @@ h1,h2 {
     font-size: unset;
     margin: revert;
 }
-.nav>li{
-  text-decoration: underline;;
-    text-decoration-color:#e9b5b3
 
-}
 
 .fondo img{
   width: 100%;

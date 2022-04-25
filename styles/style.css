@@ -144,7 +144,7 @@ h1,h2, .nav a {
 /* --- seccion1  ---- */
 
 .mision-all {
-  background-color: #e9b5b3;
+  background-color: #e8ebf1;
   border-radius: 4rem;
   display:flex;
   padding: 3rem;
@@ -175,7 +175,7 @@ h1,h2, .nav a {
       left: 30px;
       right: -20px;
       bottom: -30px;
-      border: 1px solid #e9b5b3;
+      border: 1px solid black;
     }
   .hands {
     width: 15rem;
@@ -215,13 +215,13 @@ content: "";
   left: 30px;
   right: -20px;
   bottom: -30px;
-  border: 1px solid #e9b5b3;
+  border: 1px solid black;
 }
 .hands {
   width: 30rem;
 }
-   }
-
+  
+  }
 
 /* --- seccion2 ---- */
 

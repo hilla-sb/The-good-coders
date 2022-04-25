@@ -20,12 +20,18 @@ a{
 
 /* --- Layout  ---- */
 .flotante {
-  width: 20rem;
+  float: right;
   display:scroll;
-      position:fixed;
-      bottom:1px;
-      right:0px;
+  position:fixed;
+  bottom:0px;
+  right:0px;
+  z-index: 1024;
 }
+
+.flotante img {
+  width: 4rem;
+}
+
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Andika New Basic', Sans-serif;

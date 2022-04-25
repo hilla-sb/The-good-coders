@@ -34,6 +34,7 @@ h1,h2, .nav a {
 @media(min-width:700px) {
 .header{
     margin-top: -7rem;
+
 }
 .logo img{
    width: 15rem;
@@ -60,9 +61,19 @@ h1,h2, .nav a {
 
 .fondo img{
   width: 100%;
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  
+}
 
 } 
-}
+
  
 /* --- Menúmobile  ---- */
 
@@ -290,7 +301,8 @@ content: "";
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  display: flex;
 }
 .equipos-diversos{
   display: grid;
@@ -298,31 +310,36 @@ content: "";
   column-gap: 5%;
   row-gap: 4%;
 
-  width: 30%;
+  width: 25%;
   border-radius: 50%;
-  margin-bottom: 7%;
+  margin-bottom: 4%;
 }
 .accesibilidad{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 15px;
-  row-gap: 40px;
+  column-gap: 5%;
+  row-gap: 4%;
 
-  width: 30%;
+  width: 25%;
   border-radius: 50%;
   margin-bottom: 7%;
 }
 .medio-ambiente{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 15px;
-  row-gap: 40px;
+  column-gap: 5%;
+  row-gap: 4%;
 
-  width: 30%;
+  width: 25%;
   border-radius: 70%;
   margin-bottom: 7%;
 }
-
+.idea-circles p{
+  display: flex;
+  
+}
+  
+  
 
 
 

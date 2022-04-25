@@ -83,7 +83,7 @@ h1,h2, .nav a {
   width: 100%;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-around;
   transition:all 1s ease;
   -o-transition:all 1s ease;
   -moz-transition:all 1s ease;
@@ -97,8 +97,9 @@ justify-content: center;
   } 
 
   .fondo>h1 {
-   padding-left: 14rem;
    text-align: center;
+   font-size: 2.6rem;
+   padding-left: 26rem;
     
 
   }
@@ -284,7 +285,6 @@ content: "";
   bottom: -30px;
   border: 1px solid black;
 }  
-
 
 
   /* --- seccion3 ---- */

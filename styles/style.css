@@ -4,6 +4,10 @@ ol, ul {
 	list-style: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 /*title-font*/
 
 @font-face {
@@ -29,21 +33,41 @@ h1,h2 {
 
 
 /* --- Menú  ---- */
-
+.header{
+    margin-top: -7rem;
+}
 .logo img{
-    display:flex;
-    height:3rem;
+   width: 15rem;
+    position: relative;
+    top: 8rem;
+}
+.logo {
+    height:17rem;
     position:relative;
-    margin-top:6rem;
-    padding-left: 1rem;
+    margin-top:4rem;
+    object-fit:contain;
 }
 .nav{
-    left:80px;
+    left:72px;
     display:flex;
     position:relative;
     font-size:1x;
     justify-content:space-around;
     box-sizing: content-box;
+    
+    object-fit:contain;
+    font-size: unset;
+    margin: revert;
+}
+.nav ul,li{
+  text-decoration: underline;;
+    text-decoration-color:#e9b5b3
+
+}
+
+.fondo img{
+  width: 100%;
+
 }
  
 
@@ -127,7 +151,7 @@ content: "";
 .hands {
   width: 30rem;
 }
-  }
+  
 
 
 /* --- seccion2 ---- */
@@ -254,9 +278,100 @@ content: "";
 
 
 
-/* --- seccion4 ---- */
+/* --- Proyectos ---- */
 
 
+#proyectos {
+  padding: 4rem;
+}
+.proyectos-box {
+  background-color: #e9b5b3;
+  width: 12rem;
+  height: 6rem;
+  margin: 1rem;
+position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.proyectos-box:after {
+  content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: -20px;
+    bottom: -30px;
+    border: 1px solid black;
+  }
+ .imagenes-box {
+   padding: 4rem;
+ }
+
+.imagenes-proyectos{
+
+  background-image: url("../images/Fondo\ madera\ seccion\ proyectos.jpeg");
+  border-radius: 0.5rem;
+  background-repeat:repeat;
+  padding: 2.6rem;
+  text-align: center;
+
+}
+
+.imagenes-proyectos>li{
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  border:solid 12px #fff;
+  background:#fff;
+  box-shadow:0 0 15px 0px #555;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  
+
+
+}
+
+
+.imagenes-proyectos>li:hover{
+  top:0px;
+  opacity:0.5;
+}
+
+.imagenes-proyectos>li:nth-child(1){
+    transform:rotate(10deg);
+}
+
+.imagenes-proyectos>li:nth-child(2){
+    transform:rotate(0deg);
+}
+
+.imagenes-proyectos>li:nth-child(3){
+    transform:rotate(-10deg);
+}
+
+.imagenes-proyectos>li:nth-child(4){
+    transform:rotate(20deg);
+}
+
+.imagenes-proyectos>ul>li>p{
+  margin:-15px 0 0 0;
+}
+
+.light{
+  border-radius:50%;
+  position:absolute;
+  left:0;
+  right:0;
+  width:700px;
+  height:700px;
+  background:#fff;
+  filter:blur(100px);
+  opacity:0.3;
+  pointer-events:none;
+}
 
 
 
@@ -266,14 +381,14 @@ content: "";
   background-color: #e8ebf1;
   border-radius: 4rem;
   display:flex;
-  padding: 3rem;
+  padding: 4rem;
   flex-direction: column;
   align-content: space-between;
   
   }
   
  
-  .boxh2 {
+  .miembros-box {
     background-color: #e9b5b3;
     width: 12rem;
     height: 6rem;
@@ -286,7 +401,7 @@ content: "";
   
     }
 
-  .boxh2::after {
+  .miembros-box:after {
       content: "";
         position: absolute;
         top: 30px;
@@ -298,7 +413,7 @@ content: "";
     
     
 
-  }
+  
   .boxh2>h2 {
     font-size: 2.6rem;
   }
@@ -472,10 +587,3 @@ content: "";
     transform: scale(1.05) rotate(1deg);
   }
   
-
-
-
-
-
-
-

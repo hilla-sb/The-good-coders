@@ -280,6 +280,10 @@ content: "";
 #proyectos {
   padding: 4rem;
 }
+
+.imagenes-proyectos>li>a>p {
+  font-size: 0.75;
+}
 .proyectos-box {
   background-color: #e9b5b3;
   width: 12rem;

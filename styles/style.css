@@ -33,6 +33,7 @@ h1,h2 {
 
 
 /* --- Menú  ---- */
+@media(min-width:700px) {
 .header{
     margin-top: -7rem;
 }
@@ -66,7 +67,7 @@ h1,h2 {
 
 }
  
-
+}
 
 /* --- seccion1  ---- */
 

@@ -34,6 +34,7 @@ h1,h2, .nav a {
 @media(min-width:700px) {
 .header{
     margin-top: -7rem;
+
 }
 .logo img{
    width: 15rem;
@@ -60,7 +61,34 @@ h1,h2, .nav a {
 
 .fondo img{
   width: 100%;
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  
+}
 
+.fondo img:hover{
+  top:0px;
+  opacity:0.5;
+}
+
+
+.fondo img:nth-child(4){
+    transform:rotate(20deg);
+}
+
+.fondo>h1 {
+  position:absolute;
+  top: 104%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    text-align: center;
 }
  
 }

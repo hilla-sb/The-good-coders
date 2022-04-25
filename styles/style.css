@@ -109,8 +109,13 @@ h1,h2, .nav a {
 }
 
 .respmenu .fa-bars, .respmenu .fa-times {
-  font-size: 48px;
+  font-size: 30px;
   pointer-events: none;
+}
+.fa-bars{
+ color:#000;
+  display:block;
+ 
 }
 
 .respmenu input[type="checkbox"] {
@@ -118,10 +123,11 @@ h1,h2, .nav a {
 }
 
 .respmenu {
-  color: white;
+  color: rgb(12, 12, 12);
   position: relative;
-  background: #e9b5b3;
-  min-height: 48px;
+;
+
+  min-height: 30px;
 }
 
 .respmenu nav {

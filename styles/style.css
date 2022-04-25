@@ -344,10 +344,6 @@ content: "";
   border-radius: 70%;
   margin-bottom: 7%;
 }
-.idea-circles p{
-  display: flex;
-  
-}
   
   /*media querie partes de las images y texto debajo ---- */
   @media (min-width:400px) {
